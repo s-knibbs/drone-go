@@ -46,6 +46,7 @@ type (
 		AllowDeploy bool   `json:"allow_deploys"`
 		AllowTag    bool   `json:"allow_tags"`
 		Config      string `json:"config_file"`
+		Counter     int    `json:"last_build"`
 
 		//
 		// fields added in 0.9
